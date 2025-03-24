@@ -1,0 +1,41 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.env
+.venv
+
+# IDE - PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# OpenCV and numpy generated files
+*.npy
+*.npz
+*.avi
+*.mp4
+*.jpg
+*.png
+*.jpeg
+
+# Project specific
+captured_frames/
+output_videos/
+test_images/
+debug_output/
+
+# Local development
+*.log
+.env.local
+.coverage
+coverage.xml
+.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
